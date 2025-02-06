@@ -1,8 +1,8 @@
 [package]
-name = "jupiter-swap-api-client-erichy-dev"
+name = "jupiter-swap-api-client"
 version = "0.1.0"
 description = "Erichy-dev Jupiter Swap API rust client"
-edition = { workspace = true }
+edition = "2021"
 license = "MIT"
 repository = "https://github.com/erichy-dev/jupiter-swap-api-client"
 keywords = ["solana", "jupiter", "swap", "api", "client"]
@@ -19,3 +19,4 @@ base64 = "0.22.1"
 serde_qs = "0.13.0"
 reqwest = { version = "0.12", features = ["json"] }
 rust_decimal = "1.36.0"
+spl-token = { version = "4.0.0", features = ["no-entrypoint"] }
