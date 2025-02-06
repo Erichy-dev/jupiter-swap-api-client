@@ -1,5 +1,5 @@
 [package]
-name = "jupiter-swap-api-client"
+name = "jupiter-swap-api-client-erichy-dev"
 version = "0.1.0"
 description = "Erichy-dev Jupiter Swap API rust client"
 edition = { workspace = true }
